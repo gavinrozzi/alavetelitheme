@@ -21,3 +21,5 @@ Rails.configuration.to_prepare do
   end
  end
 end
+
+ReplyToAddressValidator.invalid_reply_addresses = %w(pqg@buyinportugal.pt partner@mpromo.az)
