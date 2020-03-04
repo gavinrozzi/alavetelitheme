@@ -1,4 +1,8 @@
-[![Waffle.io - Columns and their card count](https://badge.waffle.io/gavinrozzi/opramachine-theme.png?columns=all)](https://waffle.io/gavinrozzi/opramachine-theme?utm_source=badge)
+# OPRAmachine Theme
+
+This is the Alaveteli theme for OPRAmachine.
+
+Add this repo's URL to the config/general.yml file and run bundle exec rake themes:install to install.
 
 Upstream code copyright (c) 2011 mySociety, released under the MIT license
 Changes copyright (c) 2017 Gavin C. Rozzi under the MIT license
