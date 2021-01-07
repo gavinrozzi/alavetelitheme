@@ -60,12 +60,6 @@
       </p>
     </dd>
 
-    <dt id="who">Who makes <%= site_name %> ? <a href="#who">#</a> </dt>
-    <dd><%= site_name %> was created in 2017 by New Jersey independent journalist, web developer & public records expert <a href="https://www.gavinrozzi.com/">Gavin Rozzi.</a> OPRAmachine is one of several
-    websites created by Rozzi. Other projects of Gavin's include <a href="https://politicsoc.com/">Ocean County Politics</a>,
-    which is an independent news website offering journalism and commentary on politics and public affairs in Ocean County, as well as whistleblowing site <a href="https://submit.jerseyleaks.org/">JerseyLeaks.</a>
-    </dd>
-
     <dt id="updates">How can I keep up with news about <%= site_name %>?<a href="#updates">#</a> </dt>
     <dd>We have a <a href="<%= blog_path %>">blog</a><% if !MySociety::Config.get('TWITTER_USERNAME', '').empty? %> and a <a href=https://twitter.com/<%= MySociety::Config.get('TWITTER_USERNAME', '') %>>twitter feed</a><% end %>.
     Also be sure to see our <a href="https://www.facebook.com/opramachine/">Facebook page.</a>
